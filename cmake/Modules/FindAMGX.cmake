@@ -18,7 +18,7 @@
 
 MESSAGE ("----------------------")
 MESSAGE ("-- AMGX + CUDA:")
-FIND_PACKAGE(CUDA)
+FIND_PACKAGE(CUDAToolkit)
 MESSAGE("-- Cuda libraries: " ${CUDA_LIBRARIES})
 
 SET(AMGX_FOUND FALSE)
